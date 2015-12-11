@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="primWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PngToBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="primWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PngToBitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="primWin32.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="primWin32.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\icon_about.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\icon_updated2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_action.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_cancel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_cancel_click.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_fb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_fb_click.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_moddb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_moddb_click.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_neon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_neon_click.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_neweb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_neweb_click.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_play_click.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\btn_play_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_americans.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_austrians.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_aztec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_british.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_chinese.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_danish.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_dutch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_french.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_HRE.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_indian.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_iroquois.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_italians.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_japanese.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_ottomans.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_persians.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_polish.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_portuguese.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_prussian.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_russians.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_sioux.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_spanish.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_swedish.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\civ_swiss.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\game_add.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\game_aoe3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\game_ne.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\game_substract.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\game_tad.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\game_twc.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\icon_donate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\icon_donate2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\icon_outdated.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\icon_updated.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\overlay_denial.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\overlay_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\overlay_log.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\overlay_mark.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\preview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\preview_off.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\preview_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\sel_clear.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\sel_random.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\sel_reset.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_30yw.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_archaic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_asia.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_colonial.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_europe.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_industrial.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_largest.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_napoleonic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_pirate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_religion.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\set_sea.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\tab_activated.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\tab_nochanges.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pics\tab_removed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

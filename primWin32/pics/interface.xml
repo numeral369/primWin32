@@ -1,0 +1,425 @@
+<Interface>
+	<MainWindow width="734" height="626" image="background.png">
+		<Components>
+			<Component>
+				<Usage>update</Usage>
+				<Image rollover="icon_updated.png" clicked="icon_outdated.png">icon_updated2.png</Image>
+				<X>26</X>
+				<Y>20</Y>
+			</Component>
+			<Component>
+				<Usage>label version</Usage>
+				<X>56</X>
+				<Y>28</Y>	
+				<Text font="Formal436 BT" size="18" color="0 0 0">NE 2.1.8b</Selection>
+			</Component>			
+			<Component>
+				<Usage>about</Usage>
+				<Image>icon_about.png</Image>
+				<X>656</X>
+				<Y>20</Y>
+			</Component>
+			<Component>
+				<Usage>open_donation_website https://www.webtondonate.com/</Usage>
+				<Image>btn_action.png</Image>
+				<X>582</X>
+				<Y>58</Y>
+				<Text font="Formal436 BT" size="14" color="255 255 255">Donate</Text>
+			</Component>			
+			<Component>
+				<Usage>open_donation_website https://www.webtondonate.com/</Usage>
+				<Image>icon_donate.png</Image>
+				<X>656</X>
+				<Y>52</Y>
+			</Component>
+			<Component>
+				<Usage>open_donation_website https://www.webtondonate.com/</Usage>
+				<Image>icon_donate2.png</Image>
+				<X>656</X>
+				<Y>84</Y>
+			</Component>
+			<!-- Selections -->
+			<Component>
+				<Usage>label</Usage>
+				<X>124</X>
+				<Y>164</Y>	
+				<Text font="Formal436 BT" size="14" color="57 57 57">Selection</Selection>
+			</Component>			
+			<Component>
+				<Usage>selection reset</Usage>
+				<Image>sel_reset.png</Image>
+				<X>112</X>
+				<Y>130</Y>			
+			</Component>
+			<Component>
+				<Usage>selection rand</Usage>
+				<Image>sel_random.png</Image>
+				<X>146</X>
+				<Y>130</Y>			
+			</Component>
+			<Component>
+				<Usage>selection clear</Usage>
+				<Image>sel_clear.png</Image>
+				<X>180</X>
+				<Y>130</Y>			
+			</Component>	
+			<!-- Theme filters -->	
+			<Component>
+				<Usage>label</Usage>
+				<X>314</X>
+				<Y>164</Y>	
+				<Text font="Formal436 BT" size="14" color="57 57 57">Themes</Selection>
+			</Component>
+			<Component>
+				<Usage>theme_filter archaic_civs</Usage>
+				<Image>set_archaic.png</Image>
+				<X>226</X>
+				<Y>130</Y>					
+			</Component>
+			<Component>
+				<Usage>theme_filter thirty_years_war</Usage>
+				<Image>set_30yw.png</Image>
+				<X>260</X>
+				<Y>130</Y>					
+			</Component>
+			<Component>
+				<Usage>theme_filter asians</Usage>
+				<Image>set_asia.png</Image>
+				<X>294</X>
+				<Y>130</Y>					
+			</Component>
+			<Component>
+				<Usage>theme_filter europeans</Usage>
+				<Image>set_europe.png</Image>
+				<X>328</X>
+				<Y>130</Y>					
+			</Component>
+			<Component>
+				<Usage>theme_filter colonial_powers</Usage>
+				<Image>set_colonial.png</Image>
+				<X>362</X>
+				<Y>130</Y>					
+			</Component>
+			<Component>
+				<Usage>theme_filter napoleonic_wars</Usage>
+				<Image>set_napoleonic.png</Image>
+				<X>396</X>
+				<Y>130</Y>					
+			</Component>
+			<Component>
+				<Usage>theme_filter largest_empires</Usage>
+				<Image>set_largest.png</Image>
+				<X>430</X>
+				<Y>130</Y>					
+			</Component>			
+			<!-- Game filters -->	
+			<Component>
+				<Usage>label</Usage>
+				<X>524</X>
+				<Y>164</Y>	
+				<Text font="Formal436 BT" size="14" color="57 57 57">Games</Selection>
+			</Component>			
+			<Component>
+				<Usage>game_filter_add</Usage>
+				<Image>game_add.png</Image>
+			</Component>
+			<Component>
+				<Usage>game_filter_sub</Usage>
+				<Image>game_substract.png</Image>
+			</Component>				
+			<Component>
+				<Usage>game_filter aoe3</Usage>
+				<Image>game_aoe3.png</Image>
+				<X>476</X>
+				<Y>130</Y>			
+			</Component>
+			<Component>
+				<Usage>game_filter twc</Usage>
+				<Image>game_twc.png</Image>
+				<X>510</X>
+				<Y>130</Y>			
+			</Component>
+			<Component>
+				<Usage>game_filter tad</Usage>
+				<Image>game_tad.png</Image>
+				<X>544</X>
+				<Y>130</Y>			
+			</Component>
+			<Component>
+				<Usage>game_filter ne</Usage>
+				<Image>game_ne.png</Image>
+				<X>578</X>
+				<Y>130</Y>			
+			</Component>			
+			<!-- Civs -->
+			<Component>
+				<Usage>civ_overlay_denial</Usage>
+				<Image>overlay_denial.png</Image>
+			</Component>
+			<Component>
+				<Usage>civ_overlay_hover</Usage>
+				<Image>overlay_hover.png</Image>
+			</Component>
+			<Component>
+				<Usage>civ_overlay_log</Usage>
+				<Image>overlay_log.png</Image>
+			</Component>
+			<Component>
+				<Usage>civ_overlay_mark</Usage>
+				<Image>overlay_mark.png</Image>
+			</Component>		
+			<Component>
+				<Usage>civ NEUnitedStates</Usage>
+				<Image>civ_americans.png</Image>
+				<X>60</X>
+				<Y>180</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Americans</Text>
+			</Component>
+			<Component>
+				<Usage>civ NEAustrians</Usage>
+				<Image>civ_austrians.png</Image>
+				<X>60</X>
+				<Y>213</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Austrians</Text>
+			</Component>
+			<Component>
+				<Usage>civ XPAztec</Usage>
+				<Image>civ_aztec.png</Image>
+				<X>60</X>
+				<Y>246</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Aztecs</Text>
+			</Component>
+			<Component>
+				<Usage>civ British</Usage>
+				<Image>civ_british.png</Image>
+				<X>60</X>
+				<Y>279</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">British</Text>
+			</Component>
+			<Component>
+				<Usage>civ Chinese</Usage>
+				<Image>civ_chinese.png</Image>
+				<X>60</X>
+				<Y>312</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Chinese</Text>
+			</Component>
+			<!-- <Component>
+				<Usage>civ NEDanish</Usage>
+				<Image>civ_danish.png</Image>
+				<X>60</X>
+				<Y>345</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Danish</Text>
+			</Component> -->
+			<Component>
+				<Usage>civ Dutch</Usage>
+				<Image>civ_dutch.png</Image>
+				<X>60</X>
+				<Y>378</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Dutch</Text>
+			</Component>
+			<Component>
+				<Usage>civ French</Usage>
+				<Image>civ_french.png</Image>
+				<X>60</X>
+				<Y>411</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">French</Text>
+			</Component>
+			<Component>
+				<Usage>civ Germans</Usage>
+				<Image>civ_HRE.png</Image>
+				<X>276</X>
+				<Y>180</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Germans</Text>
+			</Component>
+			<Component>
+				<Usage>civ Indians</Usage>
+				<Image>civ_indian.png</Image>
+				<X>276</X>
+				<Y>213</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Indians</Text>
+			</Component>
+			<Component>
+				<Usage>civ XPIroquois</Usage>
+				<Image>civ_iroquois.png</Image>
+				<X>276</X>
+				<Y>246</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Iroquois</Text>
+			</Component>
+			<Component>
+				<Usage>civ NEItalians</Usage>
+				<Image>civ_italians.png</Image>
+				<X>276</X>
+				<Y>279</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Italians</Text>
+			</Component>
+			<Component>
+				<Usage>civ Japanese</Usage>
+				<Image>civ_japanese.png</Image>
+				<X>276</X>
+				<Y>312</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Japanese</Text>
+			</Component>
+			<Component>
+				<Usage>civ Ottomans</Usage>
+				<Image>civ_ottomans.png</Image>
+				<X>276</X>
+				<Y>345</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Ottomans</Text>
+			</Component>
+			<!-- <Component>
+				<Usage>civ NEPersians</Usage>
+				<Image>civ_persians.png</Image>
+				<X>276</X>
+				<Y>378</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Persians</Text>
+			</Component> -->
+			<Component>
+				<Usage>civ NEVlachs</Usage>
+				<Image>civ_vlachs.png</Image>
+				<X>276</X>
+				<Y>411</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Vlachs</Text>
+			</Component>	
+			<Component>
+				<Usage>civ NEPolish</Usage>
+				<Image>civ_polish.png</Image>
+				<X>492</X>
+				<Y>180</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Polish</Text>
+			</Component>
+			<Component>
+				<Usage>civ Portuguese</Usage>
+				<Image>civ_portuguese.png</Image>
+				<X>492</X>
+				<Y>213</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Portuguese</Text>
+			</Component>
+			<Component>
+				<Usage>civ NEPrussians</Usage>
+				<Image>civ_prussian.png</Image>
+				<X>492</X>
+				<Y>246</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Prussians</Text>
+			</Component>
+			<Component>
+				<Usage>civ Russians</Usage>
+				<Image>civ_russians.png</Image>
+				<X>492</X>
+				<Y>279</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Russians</Text>
+			</Component>
+			<Component>
+				<Usage>civ XPSioux</Usage>
+				<Image>civ_sioux.png</Image>
+				<X>492</X>
+				<Y>312</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Sioux</Text>
+			</Component>
+			<Component>
+				<Usage>civ Spanish</Usage>
+				<Image>civ_spanish.png</Image>
+				<X>492</X>
+				<Y>345</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Spanish</Text>
+			</Component>
+			<Component>
+				<Usage>civ NESwedish</Usage>
+				<Image>civ_swedish.png</Image>
+				<X>492</X>
+				<Y>378</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Swedish</Text>
+			</Component>
+			<Component>
+				<Usage>civ NESwiss</Usage>
+				<Image>civ_swiss.png</Image>
+				<X>492</X>
+				<Y>411</Y>
+				<Text font="Formal436 BT" size="18" color="57 57 57">Swiss</Text>
+			</Component>			
+			<!-- Web -->
+			<Component>
+				<Usage>open_website https://www.facebook.com/NapoleonicEra</Usage>
+				<Image rollover="btn_fb.png" clicked="btn_fb_click.png">btn_normal.png</Image>
+				<X>80</X>
+				<Y>480</Y>			
+				<Text font="Formal436 BT" size="16" color="255 255 255">Facebook</Text>
+			</Component>
+			<Component>
+				<Usage>open_website http://www.moddb.com/mods/napoleonic-era</Usage>
+				<Image rollover="btn_moddb.png" clicked="btn_moddb_click.png">btn_normal.png</Image>
+				<X>80</X>
+				<Y>530</Y>			
+				<Text font="Formal436 BT" size="16" color="255 255 255">ModDB</Text>
+			</Component>
+			<Component>
+				<Usage>open_website https://www.facebook.com/groups/NapoleonicEraOnline</Usage>
+				<Image rollover="btn_neon.png" clicked="btn_neon_click.png">btn_normal.png</Image>
+				<X>500</X>
+				<Y>480</Y>			
+				<Text font="Formal436 BT" size="16" color="255 255 255">NE Online</Text>
+			</Component>			
+			<Component>
+				<Usage>open_website http://www.ne.elpea.net/</Usage>
+				<Image rollover="btn_neweb.png" clicked="btn_neweb_click.png">btn_normal.png</Image>
+				<X>500</X>
+				<Y>530</Y>			
+				<Text font="Formal436 BT" size="16" color="255 255 255">NE Website</Text>
+			</Component>
+			<Component>
+				<Usage>label civs</Usage>
+				<X>314</X>
+				<Y>476</Y>	
+				<Text font="Formal436 BT" size="17" color="246 199 98">14</Selection>
+			</Component>
+			<Component>
+				<Usage>label max_civs</Usage>
+				<X>330</X>
+				<Y>476</Y>	
+				<Text font="Formal436 BT" size="17" color="246 199 98">/ 14 civs</Selection>
+			</Component>			
+			<Component>
+				<Usage>play</Usage>
+				<Image clicked="btn_play_click.png" disabled="btn_play_disabled.png">btn_play.png</Image>
+				<X>290</X>
+				<Y>500</Y>	
+			</Component>
+			<Component>
+				<Usage>show_preview</Usage>
+				<Image disabled="preview_off.png">preview_on.png</Image>
+				<X>296</X>
+				<Y>535</Y>	
+			</Component>
+		</Components>
+	</MainWindow>
+	<PreviewWindow x="130" y="62" image="preview.png">
+		<Components>
+			<Component>
+				<Usage>header activated</Usage>
+				<Image>tab_activated.png</Image>
+				<Text font="Formal436 BT" size="17" color="255 255 255">Computer player and homecity creation activated</Text>
+			</Component>
+			<Component>
+				<Usage>header no_changes</Usage>
+				<Image>tab_nochanges.png</Image>
+				<Text font="Formal436 BT" size="17" color="255 255 255">No changes</Text>
+			</Component>
+			<Component>
+				<Usage>header removed</Usage>
+				<Image>tab_removed.png</Image>
+				<Text font="Formal436 BT" size="17" color="255 255 255">Computer player and homecity creation removed</Text>
+			</Component>
+			<Component>
+				<Usage>play</Usage>
+				<Image clicked="btn_play_click.png">btn_play.png</Image>
+				<X>290</X>
+				<Y>500</Y>	
+			</Component>
+			<Component>
+				<Usage>cancel</Usage>
+				<Image clicked="btn_cancel_click.png">btn_cancel.png</Image>
+				<X>290</X>
+				<Y>500</Y>	
+			</Component>			
+		</Components>
+	</PreviewWindow>
+</Interface>

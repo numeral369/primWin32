@@ -1,0 +1,141 @@
+<CivSets>
+	<!-- Games -->
+	<CivSet name="aoe3">
+		<Civ>British</Civ>
+		<Civ>Dutch</Civ>	
+		<Civ>French</Civ>
+		<Civ>Germans</Civ>
+		<Civ>Ottomans</Civ>
+		<Civ>Portuguese</Civ>
+		<Civ>Spanish</Civ>
+		<Civ>Russians</Civ>			
+	</CivSet>
+	<CivSet name="twc">
+		<Civ>XPAztec</Civ>
+		<Civ>XPIroquois</Civ>	
+		<Civ>XPSioux</Civ>
+	</CivSet>
+	<CivSet name="tad">
+		<Civ>Chinese</Civ>
+		<Civ>Indians</Civ>	
+		<Civ>Japanese</Civ>
+	</CivSet>
+	<CivSet name="ne">
+		<Civ>NEAustrians</Civ>
+		<Civ>NEDanish</Civ> 
+		<Civ>NEItalians</Civ>
+		<Civ>NEPersians</Civ> 
+		<Civ>NEPolish</Civ>
+		<Civ>NEPrussians</Civ>
+		<Civ>NESwedish</Civ>
+		<Civ>NESwiss</Civ>
+		<Civ>NEUnitedStates</Civ>
+	</CivSet>
+	<!-- Themes -->
+	<CivSet name="napoleonic_wars">
+		<Civ>NEAustrians</Civ>
+		<Civ>British</Civ>
+		<Civ>NEDanish</Civ>
+		<Civ>Dutch</Civ>
+		<Civ>French</Civ>
+		<Civ>Germans</Civ>
+		<Civ>NEItalians</Civ>
+		<Civ>NEPolish</Civ>
+		<Civ>Portuguese</Civ>
+		<Civ>NEPrussians</Civ>
+		<Civ>NERussians</Civ>
+		<Civ>Spanish</Civ>
+		<Civ>NESwedish</Civ>
+		<Civ>NESwiss</Civ> 
+	</CivSet>
+	<CivSet name="colonial_powers">
+		<Civ>NEAustrians</Civ>
+		<Civ>British</Civ>
+		<Civ>Chinese</Civ>
+		<Civ>NEDanish</Civ>
+		<Civ>Dutch</Civ>
+		<Civ>French</Civ>
+		<Civ>Germans</Civ>
+		<Civ>NEItalians</Civ>
+		<Civ>Ottomans</Civ>
+		<Civ>Portuguese</Civ>
+		<Civ>NEPrussians</Civ>
+		<Civ>Russians</Civ>
+		<Civ>Spanish</Civ>
+		<Civ>NESwedish</Civ>
+		<Civ>NEUnitedStates</Civ> 
+	</CivSet>
+	<CivSet name="thirty_years_war">
+		<Civ>NEAustrians</Civ>
+		<Civ>British</Civ>
+		<Civ>NEDanish</Civ>
+		<Civ>Dutch</Civ>
+		<Civ>French</Civ>
+		<Civ>Germans</Civ>
+		<Civ>NEItalians</Civ>
+		<Civ>Ottomans</Civ>
+		<Civ>NEPolish</Civ>
+		<Civ>NEPrussians</Civ>
+		<Civ>Russians</Civ>
+		<Civ>Spanish</Civ>
+		<Civ>NESwedish</Civ>
+		<Civ>NESwiss</Civ>
+	</CivSet>
+	<CivSet name="largest_empires">
+		<Civ>British</Civ>
+		<Civ>Chinese</Civ>
+		<Civ>NEDanish</Civ>
+		<Civ>Dutch</Civ>
+		<Civ>French</Civ>
+		<Civ>Indians</Civ>
+		<Civ>Ottomans</Civ>
+		<Civ>NEPersians</Civ>
+		<Civ>NEPolish</Civ>
+		<Civ>Portuguese</Civ>
+		<Civ>Russians</Civ>
+		<Civ>Spanish</Civ>
+		<Civ>NESwedish</Civ>
+		<Civ>NEUnitedStates</Civ>
+	</CivSet>
+	<CivSet name="archaic_civs">
+		<Civ>XPAztec</Civ>
+		<Civ>British</Civ>
+		<Civ>Chinese</Civ>
+		<Civ>Germans</Civ>
+		<Civ>Indians</Civ>
+		<Civ>Iroquois</Civ>
+		<Civ>NEItalians</Civ>
+		<Civ>Japanese</Civ>
+		<Civ>Ottomans</Civ>
+		<Civ>NEPersians</Civ>
+		<Civ>NEPolish</Civ>
+		<Civ>XPSioux</Civ>
+		<Civ>Spanish</Civ>
+		<Civ>NESwiss</Civ>
+		<Civ>Russians</Civ> 
+	</CivSet>
+	<CivSet name="europeans">
+		<Civ>NEAustrians</Civ>
+		<Civ>British</Civ>
+		<Civ>NEDanish</Civ>
+		<Civ>Dutch</Civ>
+		<Civ>French</Civ>
+		<Civ>Germans</Civ>
+		<Civ>NEItalians</Civ>
+		<Civ>NEPolish</Civ>
+		<Civ>Portuguese</Civ>
+		<Civ>NEPrussians</Civ>
+		<Civ>Russians</Civ>
+		<Civ>Spanish</Civ>
+		<Civ>NESwedish</Civ>
+		<Civ>NESwiss</Civ>
+	</CivSet>
+	<CivSet name="asians">
+		<Civ>Chinese</Civ>
+		<Civ>Indians</Civ>
+		<Civ>Japanese</Civ>
+		<Civ>Ottomans</Civ>
+		<Civ>NEPersians</Civ>
+		<Civ>Russians</Civ>
+	</CivSet>
+</CivSets>

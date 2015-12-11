@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9422A893-8FD6-4471-9851-197E4395FECF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>primWin32</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Users\ALIENWARE\Documents\Visual Studio 2013\Projects\primWin32\primWin32\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\ALIENWARE\Documents\Visual Studio 2013\Projects\primWin32\primWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\ALIENWARE\Documents\Visual Studio 2013\Projects\primWin32\primWin32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libpng.lib;libpngd.lib;zlibstat.lib;zlibstatd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PngToBitmap.h" />
+    <ClInclude Include="primWin32.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RoundButton.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PngToBitmap.cpp" />
+    <ClCompile Include="primWin32.cpp" />
+    <ClCompile Include="RoundButton.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="primWin32.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pics\background.png" />
+    <Image Include="pics\btn_action.png" />
+    <Image Include="pics\btn_cancel.png" />
+    <Image Include="pics\btn_cancel_click.png" />
+    <Image Include="pics\btn_fb.png" />
+    <Image Include="pics\btn_fb_click.png" />
+    <Image Include="pics\btn_moddb.png" />
+    <Image Include="pics\btn_moddb_click.png" />
+    <Image Include="pics\btn_neon.png" />
+    <Image Include="pics\btn_neon_click.png" />
+    <Image Include="pics\btn_neweb.png" />
+    <Image Include="pics\btn_neweb_click.png" />
+    <Image Include="pics\btn_normal.png" />
+    <Image Include="pics\btn_play.png" />
+    <Image Include="pics\btn_play_click.png" />
+    <Image Include="pics\btn_play_disabled.png" />
+    <Image Include="pics\civ_americans.png" />
+    <Image Include="pics\civ_austrians.png" />
+    <Image Include="pics\civ_aztec.png" />
+    <Image Include="pics\civ_british.png" />
+    <Image Include="pics\civ_chinese.png" />
+    <Image Include="pics\civ_danish.png" />
+    <Image Include="pics\civ_dutch.png" />
+    <Image Include="pics\civ_french.png" />
+    <Image Include="pics\civ_HRE.png" />
+    <Image Include="pics\civ_indian.png" />
+    <Image Include="pics\civ_iroquois.png" />
+    <Image Include="pics\civ_italians.png" />
+    <Image Include="pics\civ_japanese.png" />
+    <Image Include="pics\civ_ottomans.png" />
+    <Image Include="pics\civ_persians.png" />
+    <Image Include="pics\civ_polish.png" />
+    <Image Include="pics\civ_portuguese.png" />
+    <Image Include="pics\civ_prussian.png" />
+    <Image Include="pics\civ_russians.png" />
+    <Image Include="pics\civ_sioux.png" />
+    <Image Include="pics\civ_spanish.png" />
+    <Image Include="pics\civ_swedish.png" />
+    <Image Include="pics\civ_swiss.png" />
+    <Image Include="pics\game_add.png" />
+    <Image Include="pics\game_aoe3.png" />
+    <Image Include="pics\game_ne.png" />
+    <Image Include="pics\game_substract.png" />
+    <Image Include="pics\game_tad.png" />
+    <Image Include="pics\game_twc.png" />
+    <Image Include="pics\icon_about.png" />
+    <Image Include="pics\icon_donate.png" />
+    <Image Include="pics\icon_donate2.png" />
+    <Image Include="pics\icon_outdated.png" />
+    <Image Include="pics\icon_updated.png" />
+    <Image Include="pics\icon_updated2.png" />
+    <Image Include="pics\overlay_denial.png" />
+    <Image Include="pics\overlay_hover.png" />
+    <Image Include="pics\overlay_log.png" />
+    <Image Include="pics\overlay_mark.png" />
+    <Image Include="pics\preview.png" />
+    <Image Include="pics\preview_off.png" />
+    <Image Include="pics\preview_on.png" />
+    <Image Include="pics\sel_clear.png" />
+    <Image Include="pics\sel_random.png" />
+    <Image Include="pics\sel_reset.png" />
+    <Image Include="pics\set_30yw.png" />
+    <Image Include="pics\set_archaic.png" />
+    <Image Include="pics\set_asia.png" />
+    <Image Include="pics\set_colonial.png" />
+    <Image Include="pics\set_europe.png" />
+    <Image Include="pics\set_industrial.png" />
+    <Image Include="pics\set_largest.png" />
+    <Image Include="pics\set_napoleonic.png" />
+    <Image Include="pics\set_pirate.png" />
+    <Image Include="pics\set_religion.png" />
+    <Image Include="pics\set_sea.png" />
+    <Image Include="pics\tab_activated.png" />
+    <Image Include="pics\tab_nochanges.png" />
+    <Image Include="pics\tab_removed.png" />
+    <Image Include="primWin32.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
